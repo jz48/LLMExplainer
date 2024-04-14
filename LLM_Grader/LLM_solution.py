@@ -9,9 +9,7 @@ import numpy as np
 # from prompting import Prompter
 from prompting_Jiayi import Prompter2
 
-openai.api_key = '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'
-openai.api_key = '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'
-openai.api_key= "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"  # Jiayi's key
+openai.api_key = ''  # your openai api key
 
 prompter = Prompter2()
 
